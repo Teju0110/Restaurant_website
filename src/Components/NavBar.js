@@ -64,9 +64,6 @@ const NavBar = () => {
             <a href="#home">Home</a>
           </p>
           <p>
-            <a href="#video">Restaurant Tour</a>
-          </p>
-          <p>
             <a href="#contact">Contact Us</a>
           </p>
           <p>
