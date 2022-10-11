@@ -60,57 +60,22 @@ const NavBar = () => {
             />
 
             <div className="navBar_small_menu_links">
-              <p>
-                <a
-                  href="#home"
-                  onClick={() => {
-                    setToggleMenu(false);
-                  }}
-                >
-                  Home
-                </a>
-              </p>
-              <p>
-                <a
-                  href="#Pages"
-                  onClick={() => {
-                    setToggleMenu(false);
-                  }}
-                >
-                  Pages
-                </a>
-              </p>
-              <p>
-                <a
-                  href="#contact"
-                  onClick={() => {
-                    setToggleMenu(false);
-                  }}
-                >
-                  Contact Us
-                </a>
-              </p>
-              <p>
-                <a
-                  href="#blog"
-                  onClick={() => {
-                    setToggleMenu(false);
-                  }}
-                >
-                  Blog
-                </a>
-              </p>
-              <p>
-                <a
-                  href="#landing"
-                  onClick={() => {
-                    setToggleMenu(false);
-                  }}
-                >
-                  Landing
-                </a>
-              </p>
-            </div>
+             <p>
+            <a href="#home">Home</a>
+          </p>
+          <p>
+            <a href="#video">Restaurant Tour</a>
+          </p>
+          <p>
+            <a href="#contact">Contact Us</a>
+          </p>
+          <p>
+            <a href="#menu">Menu</a>
+          </p>
+          <p>
+            <a href="#about">About</a>
+          </p>
+        </div>
             <div
               className="signIn"
               style={{ display: "flex", flexDirection: "column"}}
