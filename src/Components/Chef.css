@@ -1,0 +1,172 @@
+.chef{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 18%;
+}
+.chef_Image{
+    flex: 1;
+}
+.chef_Image img{
+    width: 350px;
+    height: 450px;
+}
+
+.Image_div1{
+    background-color:#DCCA87;
+    height: 15px;
+    width: 200px;
+}
+.chef_Img{
+    display: flex;
+    flex-direction: row;
+}
+.Image_div2{
+    background-color:#DCCA87;
+    height: 150px;
+    width: 15px;
+}
+
+.Image_div3{
+    background-color:#DCCA87;
+    height: 150px;
+    width: 15px;
+    margin-top: 79%;
+}
+
+.Image_div4{
+    background-color:#DCCA87;
+    height: 15px;
+    width: 200px;
+    margin-left: 47.3%;
+   
+}
+
+.chef_content{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.chef_content h5{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* FFFFFF */
+
+color: #FFFFFF;
+}
+
+.chef_content h1{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+/* or 83px */
+
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* DCCA87 */
+
+color: #DCCA87;
+}
+
+.chef_content p{
+    font-family: 'Open Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+
+color: #AAAAAA;
+}
+
+.chef_content h2{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 130%;
+/* identical to box height, or 42px */
+
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* DCCA87 */
+
+color: #DCCA87;
+}
+
+.chef_content h3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+margin-top: -5%;
+/* identical to box height, or 28px */
+
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+
+color: #AAAAAA;
+}
+
+.chef_content img{
+    width: 235px;
+    height: 83px;
+}
+
+@media screen  and (max-width:1150px){
+    .chef{
+        display: flex;
+        flex-direction: column;
+    }
+    .Image_div1{
+        display: none;
+    }
+    .Image_div2{
+        display: none;
+    }
+    .Image_div3{
+        display: none;
+    }
+    .Image_div4{
+        display: none;
+    }
+
+    .chef_Image{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chef_content{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+    }
+
+    
+}

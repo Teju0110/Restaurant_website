@@ -1,0 +1,114 @@
+.newsLetter {
+    padding: 5% 10%;
+    justify-content: center;
+    align-content: center;
+}
+
+.newsLetter_container {
+    border: 1px solid #DCCA87;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.newsLetter_container h4 {
+    font-family: 'Cormorant Upright';
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-bottom: -1%;
+}
+
+.newsLetter_container h1 {
+    font-family: 'Cormorant Upright';
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* DCCA87 */
+
+    color: #DCCA87;
+}
+
+.newsLetter_container p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* identical to box height, or 28px */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.newLetter_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newLetter_input input {
+    border: 1px solid #DCCA87;
+    width: 550px;
+    height: 45px;
+    font-family: 'Cormorant Upright';
+    padding-left: 10px;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #AAAAAA;
+    margin-right: 20px;
+
+}
+
+.newsLetter button{
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+
+    width: 180px;
+    height: 44px;
+
+    background: #DCCA87;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 175%;
+
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+
+@media screen and (max-width:1100px) {
+    .newsLetter_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newLetter_input{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newLetter_input input{
+        width: 80%;
+
+    }
+    
+}

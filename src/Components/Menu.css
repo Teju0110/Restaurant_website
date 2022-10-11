@@ -1,0 +1,122 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.menu_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_heading p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.menu_heading h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* or 83px */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    margin-top: 0;
+}
+
+.menu_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+margin-top: -40px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.menu_content h2{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+/* or 58px */
+
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* FFFFFF */
+
+color: #FFFFFF;
+}
+
+.menu1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-right: 10%;
+}
+
+.menu_image img{
+    width:80%;
+height: 80%;
+}
+
+.menu2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 10%;
+}
+
+.menu_button button{
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    
+    width: 180px;
+    height: 44px;
+    
+    background: #DCCA87;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 175%;
+    
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+
+@media screen  and (max-width:650px){
+    .menu_content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu1{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu2{
+        align-items: center;
+        justify-content: center;
+    }
+}

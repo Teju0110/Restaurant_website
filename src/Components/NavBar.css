@@ -1,0 +1,150 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    left: 0px;
+    top: 0px;
+
+}
+
+.navBar_large_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navBar_Logo p {
+
+    width: 200px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.navBar_links {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navBar_links p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    letter-spacing: 0.04em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navBar_links p :hover {
+    color: gray;
+}
+
+.navBar_links a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.signIn {
+    display: flex;
+
+}
+
+
+.signIn p {
+    left: 0px;
+    top: 14.5px;
+    margin: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.signIn p:hover {
+    text-decoration: underline;
+}
+
+.signIn div {
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 1px;
+    margin: 12px;
+}
+
+.navBar_small_menu {
+    display: none;
+    width: 100%;
+}
+
+.small_menu {
+    margin: 10% 10%;
+    width: 60%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: fixed;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+
+}
+
+.navBar_small_menu_links {
+
+    top: 20px;
+    right: 20px;
+
+}
+
+.navBar_small_menu_links p {
+    margin: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.navBar_small_menu_links a {
+    text-decoration: none;
+    color: #DCCA87;
+}
+
+.hamburgerMenu {
+    position: fixed;
+    color: #FFF;
+    font-size: 27px;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+    .navBar_large_menu {
+        display: none;
+    }
+
+    .navBar_small_menu {
+        display: flex;
+
+
+    }
+}

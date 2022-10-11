@@ -1,0 +1,140 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    gap: 180px;
+}
+
+.home_content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home_content p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* FFFFFF */
+
+    color: #FFFFFF;
+}
+
+.home_content h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #DCCA87;
+}
+
+.home_content p:last-child {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+
+}
+
+.header_Img{
+    flex:  1;
+   
+} 
+.header_Img1{
+    background-color:#DCCA87;
+    height: 18px;
+    width: 250px;
+
+}
+
+.header_Img4{
+    background-color:#DCCA87;
+    height: 18px;
+    width: 266px;
+    margin-top: -1px;
+    margin-left: 41.9%;
+
+}
+
+.border{
+    display: flex;
+}
+
+.header_Img2{
+    height: 250px;
+    width: 18px;
+    background-color:#DCCA87;
+}
+.header_Img3{
+    height: 250px;
+    width: 18px;
+    background-color:#DCCA87;
+    margin-top: 48%;
+}
+
+
+.header_Img img{
+    width: 80%;
+}
+
+.home_button{
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+
+    width: 180px;
+    height: 44px;
+
+    background: #DCCA87;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 175%;
+
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+
+@media screen and (min-width:1540px ) {
+    .header_Img1{
+        display: none;
+    }
+    .header_Img2{
+        display: none;
+    }
+    .header_Img3{
+        display: none;
+    }
+    .header_Img4{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1515px) {
+    .header_Img{
+        display: none;
+    }
+}
+

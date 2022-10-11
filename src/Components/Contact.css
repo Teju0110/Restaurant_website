@@ -1,0 +1,103 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 20%;
+    margin-top: -5%;
+
+}
+
+.contact_content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_content h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.contact_content h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #DCCA87;
+}
+
+.contact_content p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+
+    letter-spacing: 0.04em;
+
+    color: #AAAAAA;
+}
+
+.contact_content h3 {
+    font-family: 'Cormorant Upright';
+    line-height: 130%;
+
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+.contact_content button {
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+
+    width: 180px;
+    height: 44px;
+
+    background: #DCCA87;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 175%;
+
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+
+}
+
+.contact_image {
+    width: 350px;
+    height: 650px;
+}
+
+.contact_image img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1100px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
